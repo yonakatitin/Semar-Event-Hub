@@ -159,7 +159,7 @@ if (isset($_POST["cari"])) {
                                         <td><?= $row["lokasi_event"]; ?></td>
                                         <td>
                                             <a href="deleteEvent.php?id=<?= $row['id']; ?>" 
-                                                onclick="return confirm('yakin');">
+                                                onclick="return confirm('Apakah anda yakin ingin menghapus event ini?');">
                                                 <img src="img/trash-solid.svg">
                                             </a>
                                         </td>
